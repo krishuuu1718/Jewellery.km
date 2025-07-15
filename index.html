@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Jewelry Fashion </title>
+    <!-- <link rel="shortcut icon" type="image" href="./image/logo2.png"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- blinks -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- blinks -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+<body>
+
+    <!-- top navbar -->
+    <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="other-links">
+            <button id="btn-login"><a href="login.html">Login</a></button>
+            <button id="btn-signup"><a href="signup.html">Sign up</a></button>
+
+            <!-- <i class="fa-solid fa-user"></i> -->
+            <i class="fa-solid fa-cart-shopping"> <span id="cart-count">0</span></i> 
+           
+            
+        </div>
+    </div>
+    <!-- top navbar -->
+
+    <div class="home-section">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./image/logo2.png" alt="" width="85px" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="jewellary.html">Jewelry</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(147, 154, 156);">
+                      <li><a class="dropdown-item" href="rings.html">Rings</a></li>
+                      <li><a class="dropdown-item" href="earrings.html">Earrings</a></li>
+                      <li><a class="dropdown-item" href="chains.html">Chains</a></li>
+                      <li><a class="dropdown-item" href="bracelet.html">Bracelets</a></li>
+                      <li><a class="dropdown-item" href="necklace.html">Necklaces</a></li>
+                      <!-- <li><a class="dropdown-item" href="#">Payal</a></li> -->
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+               
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar -->
+
+
+
+
+
+        <!-- home content -->
+        <section class="home">
+            <div class="content">
+                <h3>Discover The 
+                    <br> <span>Beauty Of Fine </span>
+                    <br> <span>Jewelry </span>
+                </h3>
+                <p>Explore our collection of exquisite picccs and fine your perfect match</p>
+                 <button id="shopnow"> Shop Now</button> 
+                 
+                
+            </div>
+            <div class="img">
+                <img src="./image/b2.png" alt="">
+            </div>
+        </section>
+        <!-- home content -->
+    </div>
+
+    <!-- top cards -->
+    <div class="container" id="top-cards">
+        <div class="row">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card" style="background-color: #a9a9a926;">
+                    <img src="./image/topcard1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-titel">New Arrivals</h5>
+                        <strong><p>Pearl Necklaces</p></strong>
+                        <!-- <p><strong>$200.30 <strike>$250.10</strike></strong></p> -->
+                        <!-- <button>Shop Now</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card" style="background-color: #a9a9a926;">
+                    <img src="./image/topcard2.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-titel">Beautiful</h5>
+                        <strong><p>Weddind Ring</p></strong>
+                        <!-- <p><strong>$150.10 <strike>$200.10</strike></strong></p> -->
+                        <!-- <button>Shop Now</button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card" style="background-color: #a9a9a926;">
+                    <img src="./image/topcard3.webp" alt="">
+                    <div class="card-img-overlay">
+                        <h5 class="card-titel">Earrings</h5>
+                       <strong><p>Floary</p></strong>
+                        <!-- <p><strong>$50.10 <strike>$60</strike></strong></p> -->
+                        <!-- <button>Shop Now</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top cards -->
+    
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="content">
+            <h1>Get Up To 50% Off</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi?</p>
+            <div id="bannerbtn"><button>SHOP NOW</button></div>
+        </div>
+    </div>
+    <!-- banner -->
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+        <h1 class="text-center">PRODUCT</h1>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p13.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Earring</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹1000 <strike>₹15000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p14.webp" alt="">
+                    <div class="card-body">
+                        <h3>Nose Pin</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹1500 <strike>₹4000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p15.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Ring</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹20000 <strike>₹25000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p16.webp" alt="">
+                    <div class="card-body">
+                        <h3>Bangle</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹3500 <strike>₹5000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p17.webp" alt="">
+                    <div class="card-body">
+                        <h3>Payal</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹6500 <strike>₹10000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p18.webp" alt="">
+                    <div class="card-body">
+                        <h3>Chain</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹20000 <strike>₹25000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p19.jpeg" alt="">
+                    <div class="card-body">
+                        <h3>Bracelet</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹10000 <strike>₹15000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./image/p20.webp" alt="">
+                    <div class="card-body">
+                        <h3>Necklace</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹25000 <strike>₹30000</strike> <span><button class="add-to-cart">Add to Cart</button></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="jewellary.html" id="viewmorebtn">View More</a>
+    </div>
+
+    <!-- product cards -->
+     <!-- Customer's Review's -->
+     <section class="about" id="about">
+        <h1 class="title">Client's reviews</h1>
+     
+        <div class="box-container">
+     
+           <div class="box">
+              <img src="image/pic-1.jpg" alt="">
+              <p>"They have the best collection of jwellery and at reasonable prices. You can also customise your jwellery as per your need. They also were very much polite and have a good service too.  "</p>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+                
+              </div>
+              <h3>Raaj Patel </h3>
+           </div>
+            
+           <div class="box">
+              <img src="image/pic-2.jpg" alt="">
+              <p>"I was scared at first to buy jewellery online. But giriraj jewellers made it hassle-free. I loved the chain. Simple and elegant for daily use. It was customized as per my requirements. "</p>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+              </div>
+              <h3>Riya Desai</h3>
+           </div>
+           
+           <div class="box">
+              <img src="image/pic-3.jpg" alt="">
+              <p>"This product I ordered is really beautifully made and very affordable. It’s appreciated that it was well  provided. Thank you had a wonderful experience shopping. "</p>
+              <br>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+              </div>
+             
+              <h3>Aryan Mehta</h3>
+           </div>
+     
+           <div class="box">
+              <img src="image/pic-4.jpg" alt="">
+              <p>"Beautiful and unique design Excellent customer service Happy to receive customized bangle Thanks to Giriraj Jewellers Love to buy again in future ."</p>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Jessy Katopolis</h3>
+           </div>
+           <div class="box">
+            <img src="image/pic-5.jpg" alt="">
+            <p>"I ordered hanuman pendant to gift my husband on his birthday he just loved it. I really recommend your shop to all gold lover's ✨️ Thank you </p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+           
+            <h3>Sameer Maheshwari</h3>
+        
+         </div>
+         <div class="box">
+            <img src="image/pic-6.jpg" alt="">
+            <p>"I am way happy after having this in my collection, this is for gifting, and my brother likes it very much, mist visit their store once, thanks giriraj jwellers."</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+            <h3>Yuvika Mahajan</h3>
+         </div>
+        
+         </div>
+     </section>
+    
+    
+     <!-- Customer's Review's -->
+    <!-- product -->
+    <div class="container" style="margin-top: 100px;"> 
+    <!-- <hr> -->
+</div> 
+ <!-- <div class="container"> -->
+     <!-- <h3 style="font-weight: bold;">PRODUCT.</h3> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero eius ipsam incidunt illum totam nostrum quidem sit cumque fugit. Accusamus rem praesentium labore tempore ullam porro quaerat fugiat cum ipsum, sint perferendis voluptate ad, quod reiciendis officia! In voluptate quae expedita sunt eum placeat alias soluta. Rem commodi, impedit error doloribus ratione at provident beatae, aut doloremque sunt possimus voluptas recusandae nam aliquid eos quia minus harum repellat quae eveniet laborum dolore esse voluptate sed. Voluptate ullam dolor sapiente neque labore hic nam odio qui consectetur porro minima nesciunt suscipit vitae obcaecati reiciendis itaque ipsum unde, debitis nemo soluta!</p>  -->
+
+    <!-- <hr> -->
+ <!-- </div>  -->
+    <!-- product -->
+
+
+<!-- offer -->
+    <div class="container" id="offer">
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-plane"></i>
+                <h5>Free Shipping</h5>
+                <p>On order over </p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h5>Big Choice</h5>
+                <p>Of product</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h5>Fast Delivery</h5>
+                <p>World wide</p>
+            </div>
+        </div>
+    </div>
+<!-- offer -->
+
+
+
+
+
+
+<!-- footer -->
+<footer id="footer" style="margin-top: 50px;">
+<div class="footer-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 footer-content">
+                <h3>Jewelry Fashion</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, hic?</p>
+                <p>
+                    Jaipur <br>
+                    Pune <br>
+                    Gujarat <br>
+                </p>
+                <strong><i class="fas fa-phone"></i> Phone: <strong>+9453672872</strong></strong><br>
+                <strong><i class="fa-solid fa-envelope"></i> Email: <strong>anjali@gmail.com</strong></strong>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Usefull Links</h4>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Privacy policay</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, rem!</p>
+                <ul>
+                    <li><a href="#">Rings</a></li>
+                    <li><a href="#">Earrings</a></li>
+                    <li><a href="#">Bangles</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Social Network</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ad?</p>
+                <div class="socail-links mt-3">
+                    <a href="#" class="twiiter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container py-4">
+    <div class="copyright">
+        Create <strong>Ecommerce Jewelry</strong>.Webside
+    </div>
+    <div class="credits">
+        Designed By <a href="#">Anjali </a>
+    </div>
+</div>
+</footer>
+<!-- footer -->
+
+<a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="addtocard.js"></script>
+</body>
+</html>
